@@ -28,14 +28,16 @@ function renderDescription(){
     description.innerText = descriptionsES[randomNum][2];
     document.getElementById("description").appendChild(description);
 
-    let trailer = document.createElement('a');
-    trailer.innerText = "Ver trailer";
-    document.getElementById("description").appendChild(trailer);
-
-    let ver = document.createElement('a');
-    ver.innerText = "Ver ahora";
+    let ver = document.createElement('button');
+    ver.innerText = "Ver";
     ver.id = 'ver';
+    // ver.addEventListener('click', console.log('aa'));
     document.getElementById("description").appendChild(ver);
+
+    let trailer = document.createElement('img');
+    trailer.src = descriptionsES[randomNum][3];
+    trailer.id = 'trailer';
+    document.getElementById('description').appendChild(trailer);
 }
 
 function renderEpisode(randomNum){

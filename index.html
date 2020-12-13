@@ -16,7 +16,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
   </head>
 
-  <body onload="$('#myModal').modal('show');">
+  <body onload="$('#welcome').modal('show'); $('#about').modal('hide');">
     
     <div id="particles-js" onclick="renderDescription()"></div>
 
@@ -28,14 +28,44 @@
 
     <div id="nav">
       <a href="">Abonar</a>
-      <a href="">About</a>
+      <a onclick="$('#about').modal('show');">About</a>
     </div>
-    
-    <!-- <div id="description"></div> -->
 
    <!-- Welcome modal -->
     <div class="container">
-      <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal fade" id="welcome" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title">[GIF TRAMA]</h4>
+            </div>
+            <div class="modal-body">
+              <p>TRAMA es una serie con episodios que se pueden ver en cualquier orden.
+                No los une una narrativa lineal. Los episodios resuenan, se contagian, se afectan.
+                La serie no tiene un principio ni un fin, es una trama sin bordes que se despliega
+                en direcciones múltiples. No hay conclusiones ni sentidos únicos. Hay flores, que
+                no dejan de abrirse. Puedes pensar que cada episodio es como un verso de un
+                mismo poema abierto y vibrante. Puedes entrar a la red por donde quieras,
+                trazar recorridos posibles, entretejerte con tu mirada como un elemento más de la trama. </p>
+              </p> Acá abajo tienes el botón para pagar por el acceso a la serie.
+                Tu aporte nos permite seguir realizando más episodios y desarrollando esta obra. <p>
+              <button>Abonar</button>
+            </div>
+
+            <div class="modal-footer">
+              <p> Si ya pagaste, quieres pagar más adelante, retribuir de otra manera
+                o no puedes pagar puedes directamente <a href="" data-dismiss="modal">ingresar</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About modal -->
+    <div class="container">
+      <div class="modal fade" id="about" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
