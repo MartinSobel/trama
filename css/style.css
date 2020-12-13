@@ -85,8 +85,19 @@ button{
   position: absolute;
   left: 3%;
   top: 3%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p{
+  padding-top: 10px;
 }
 
 h3{
   display: inline;
+}
+
+#ver{
+  position:absolute;
+  right: 10px;
 }
