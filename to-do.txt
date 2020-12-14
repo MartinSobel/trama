@@ -1,0 +1,2 @@
+hacer responsive
+funcionalidad para ver en ingles
