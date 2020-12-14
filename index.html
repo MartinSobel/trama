@@ -16,7 +16,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
   </head>
 
-  <body onload="$('#welcome').modal('show'); $('#about').modal('hide'); $('#about').modal('hide');" >
+  <body onload="$('#welcome').modal('show'); $('#about').modal('hide'); $('#about').modal('hide'); document.getElementById('nav').style.display = 'none';" >
     
     <div id="particles-js" onclick="renderDescription()"></div>
 
@@ -50,12 +50,12 @@
                 trazar recorridos posibles, entretejerte con tu mirada como un elemento más de la trama. </p>
               </p> Acá abajo tienes el botón para pagar por el acceso a la serie.
                 Tu aporte nos permite seguir realizando más episodios y desarrollando esta obra. <p>
-              <button onclick="$('#welcome').modal('hide'); $('#abonar').modal('show');">Abonar</button>
+              <button onclick="$('#welcome').modal('hide'); $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
             </div>
 
             <div class="modal-footer">
               <p> Si ya pagaste, quieres pagar más adelante, retribuir de otra manera
-                o no puedes pagar puedes directamente <a href="" data-dismiss="modal">ingresar</a>
+                o no puedes pagar puedes directamente <a href="" data-dismiss="modal" onclick="document.getElementById('nav').style.display = 'inherit';">ingresar</a>
             </p>
             </div>
           </div>
