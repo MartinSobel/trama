@@ -140,4 +140,7 @@ video{
   #info{
     width: 90%;
   }
+  #metodosPago img{
+    width: 100px;
+  }
 }
