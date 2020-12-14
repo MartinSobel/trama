@@ -26,8 +26,9 @@ function renderDescription(){
     description.innerText = descriptionsES[randomNum][2];
     document.getElementById("description").appendChild(description);
 
-    let ver = document.createElement('button');
-    ver.innerText = "Ver";
+    let ver = document.createElement('i');
+    // ver.innerText = "Ver";
+    ver.classList.add('icofont-play-alt-2');
     ver.id = 'ver';
     ver.addEventListener('click', function(){
         renderEpisode(randomNum);

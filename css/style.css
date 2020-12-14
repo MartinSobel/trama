@@ -15,7 +15,7 @@ html, body{
 
 .modal-content{
   color: white;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.774) !important;
 }
 
 button{
@@ -60,8 +60,10 @@ h3{
 
 #ver{
   position: absolute;
-  right: 10px;
-  top: 15px;
+  right: 40px;
+  top: 20px;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 #trailer{
@@ -101,4 +103,18 @@ h3{
   position: absolute;
   top: 40;
   right: 0;
+}
+
+.modal-body img{
+  width: 200px;
+}
+
+.modal-body{
+  text-align: justify;
+}
+
+#metodosPago{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
