@@ -1,10 +1,8 @@
 function renderDescription(){
-    // Borrar el div
     if(document.getElementById("description")){
         document.body.removeChild(document.getElementById("description"));
     }
 
-    // Genera el div
     let div = document.createElement('div');
     document.body.appendChild(div);
     div.id = "description";
@@ -46,4 +44,29 @@ function renderEpisode(randomNum){
     let div = document.createElement('div');
     document.body.appendChild(div);
     div.id = "episode";
+
+    let regresar = document.createElement('a');
+    regresar.innerText = 'Regresar';
+    regresar.id = 'regresar';
+    regresar.addEventListener('click', function(){
+        document.body.removeChild(document.getElementById("episode"));
+    });
+    document.getElementById("episode").appendChild(regresar);
+
+    let title = document.createElement('h2');
+    title.innerText = descriptionsES[randomNum][0];
+    title.id = 'episodeTitle'
+    document.getElementById("episode").appendChild(title);
+
+    let description = document.createElement('p');
+    description.innerText = descriptionsES[randomNum][2];
+    document.getElementById("episode").appendChild(description);
+
+    let video = document.createElement('video');
+    video.width = '1000';
+    video.controls = true;
+    let source = document.createElement('source');
+    source.src = 'https://www.w3schools.com/html/mov_bbb.mp4';
+    video.appendChild(source);
+    document.getElementById("episode").appendChild(video);
 }

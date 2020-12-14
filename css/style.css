@@ -32,6 +32,9 @@ button{
 
 #nav a{
   padding-left: 20px;
+}
+
+a{
   cursor: pointer;
 }
 
@@ -86,4 +89,16 @@ h3{
   padding: 10px;
   border-radius: 10px;
   z-index: 10;
+}
+
+#episodeTitle{
+  position: absolute;
+  top: 60;
+  right: 0;
+}
+
+#regresar{
+  position: absolute;
+  top: 40;
+  right: 0;
 }
