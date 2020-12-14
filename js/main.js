@@ -31,8 +31,10 @@ function renderDescription(){
     let ver = document.createElement('button');
     ver.innerText = "Ver";
     ver.id = 'ver';
-    // ver.addEventListener('click', console.log('aa'));
-    document.getElementById("description").appendChild(ver);
+    ver.addEventListener('click', function(){
+        renderEpisode(randomNum);
+    });
+    document.getElementById('description').appendChild(ver);
 
     let trailer = document.createElement('img');
     trailer.src = descriptionsES[randomNum][3];
@@ -41,5 +43,7 @@ function renderDescription(){
 }
 
 function renderEpisode(randomNum){
-    
+    let div = document.createElement('div');
+    document.body.appendChild(div);
+    div.id = "episode";
 }

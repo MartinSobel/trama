@@ -44,6 +44,7 @@ button{
   top: 3%;
   padding: 10px;
   border-radius: 10px;
+  z-index: 1;
 }
 
 p{
@@ -72,4 +73,17 @@ h3{
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.829);
+}
+
+#episode{
+  width: 95vw;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.959);
+  color: white;
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 10;
 }
