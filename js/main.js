@@ -57,7 +57,7 @@ function renderEpisode(randomNum){
     info.id = "info";
 
     let regresar = document.createElement('a');
-    regresar.innerText = 'Regresar';
+    regresar.innerText = '< Regresar';
     regresar.id = 'regresar';
     regresar.addEventListener('click', function(){
         document.body.removeChild(document.getElementById("episode"));
@@ -73,6 +73,10 @@ function renderEpisode(randomNum){
     let description = document.createElement('p');
     description.innerText = descriptionsES[randomNum][2];
     document.getElementById("info").appendChild(description);
+
+    let ficha = document.createElement('p');
+    ficha.innerText = 'Guion: Persona 1, Luces: Persona 2, Sonido: Persona 3';
+    document.getElementById("info").appendChild(ficha);
 
     let video = document.createElement('video');
     video.width = '1000';
