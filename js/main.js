@@ -45,6 +45,9 @@ function renderDescription(){
 }
 
 function renderEpisode(randomNum){
+    let nav = document.getElementById('nav');
+    nav.style.display = 'none';
+
     let div = document.createElement('div');
     document.body.appendChild(div);
     div.id = "episode";
@@ -58,6 +61,7 @@ function renderEpisode(randomNum){
     regresar.id = 'regresar';
     regresar.addEventListener('click', function(){
         document.body.removeChild(document.getElementById("episode"));
+        nav.style.display = 'inherit';
     });
     document.getElementById("info").appendChild(regresar);
 
