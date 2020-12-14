@@ -72,6 +72,7 @@ function renderEpisode(randomNum){
 
     let description = document.createElement('p');
     description.innerText = descriptionsES[randomNum][2];
+    description.id = 'episodeDescription';
     document.getElementById("info").appendChild(description);
 
     let ficha = document.createElement('p');
