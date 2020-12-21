@@ -21,17 +21,17 @@ var svg = d3.select("#nodes").append("svg")
 // hard-code some json
 var graph = {
     "nodes":[
-        {"name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La paciencia de los fuertes"},
-        {"name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "Titulo impresionante"},
-        {"name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Titulin"},
-        {"name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
-        {"name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Las aventuras de jada"},
-        {"name":"Geborand","group":1, url: "http://www.anywhere.com", text: "Paciencia"},
-        {"name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Belleza"},
-        {"name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Impaciencia"},
-        {"name":"Count","group":1, url: "http://www.anywhere.com", text: "Las olas"},
-        {"name":"OldMan","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
-        {"name":"Labarre","group":1, url: "http://www.anywhere.com", text: "Aislado"},
+        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La paciencia de los fuertes"},
+        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "Titulo impresionante"},
+        {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Titulin"},
+        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
+        {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Las aventuras de jada"},
+        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "Paciencia"},
+        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Belleza"},
+        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Impaciencia"},
+        {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: "Las olas"},
+        {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
+        // {"id": 1, "name":"Labarre","group":1, url: "http://www.anywhere.com", text: "Aislado"},
         // {"name":"Valjean","group":1, url: "http://www.anywhere.com", text: ""},
         // {"name":"Marguerite","group":1, url: "http://www.anywhere.com", text: ""},
         // {"name":"Mme.deR","group":1, url: "http://www.anywhere.com", text: ""},
@@ -89,7 +89,7 @@ node.each(function(d){
   var thisNode = d3.select(this);
   if (!d.children) {
     thisNode.append("svg:a")
-      .attr("xlink:href", function(d) { return d.url; })
+      // .attr("xlink:href", function(d) { return d.url; })
       .attr("target", "_blank")
       //.text(function(d) { return d.url; })
       .append("text")
