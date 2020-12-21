@@ -10,6 +10,14 @@ html, body{
   box-sizing: border-box;
 }
 
+#nodes{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 600px;
+}
+
 #particles-js{
   width: 100%;
   height: 100%;
@@ -17,6 +25,20 @@ html, body{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+/* D3 */
+.node {
+  stroke: rgb(172, 172, 172);
+  stroke-width: 1px;
+}
+
+.link {
+  stroke: rgb(131, 129, 129);
+}
+
+.node text {
+  font: 12px sans-serif;
 }
 
 /* Modals */
