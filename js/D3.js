@@ -17,7 +17,6 @@ var svg = d3.select("#nodes").append("svg")
 .attr("width", width)
 .attr("height", height);
 
-
 // hard-code some json
 var graph = {
     "nodes":[
@@ -43,6 +42,17 @@ var graph = {
         {"source":7,"target":8,"value":1},
         {"source":8,"target":0,"value":1},
     ]
+}
+
+
+// Random connections for lines
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+for(let i = 0 ; i < graph.links.length ; i ++){
+  graph.links[i].source = getRandomInt(9);
+  graph.links[i].target = getRandomInt(9);
 }
 
 //Creates the graph data structure out of the json data
