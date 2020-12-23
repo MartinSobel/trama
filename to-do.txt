@@ -1,2 +1,1 @@
 hacer random las conexiones entre nodos y el movimiento
-el fondo menos intenso, mas gris, mas despacio

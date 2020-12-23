@@ -101,7 +101,7 @@ node.each(function(d){
 // force be with you
 force.on("tick", function () {
   // Constant movement
-  force.alpha(0.05); 
+  force.alpha(0.02); 
   link.attr("x1", function (d) {
     return d.source.x;
   })
