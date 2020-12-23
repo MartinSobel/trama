@@ -31,16 +31,6 @@ var graph = {
         {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Impaciencia"},
         {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: "Las olas"},
         {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
-        // {"id": 1, "name":"Labarre","group":1, url: "http://www.anywhere.com", text: "Aislado"},
-        // {"name":"Valjean","group":1, url: "http://www.anywhere.com", text: ""},
-        // {"name":"Marguerite","group":1, url: "http://www.anywhere.com", text: ""},
-        // {"name":"Mme.deR","group":1, url: "http://www.anywhere.com", text: ""},
-        // {"name":"Isabeau","group":1, url: "http://www.anywhere.com", text: ""},
-        // {"name":"Gervais","group":2},
-        // {"name":"Tholomyes","group":3},
-        // {"name":"Listolier","group":3},
-        // {"name":"Fameuil","group":3},
-        // {"name":"Blacheville","group":3},
     ],
     "links":[
         {"source":1,"target":0,"value":1},
@@ -52,9 +42,6 @@ var graph = {
         {"source":6,"target":4,"value":1},
         {"source":7,"target":8,"value":1},
         {"source":8,"target":0,"value":1},
-        // {"source":9,"target":0,"value":1},
-        // {"source":11,"target":10,"value":1},
-        // {"source":11,"target":3,"value":1},
     ]
 }
 
