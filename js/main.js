@@ -12,7 +12,7 @@ function renderDescription(d){
     descriptionText.id = "descriptionText";
 
     // let randomNum = Math.floor((Math.random() * 10) + 1);
-    let randomNum = d;
+    let randomNum = d; 
 
     let title = document.createElement('h3');
     title.id = 'title';
@@ -81,7 +81,7 @@ function renderEpisode(randomNum){
     document.getElementById("info").appendChild(ficha);
 
     let iframe = document.createElement('div');
-    iframe.innerHTML = '<iframe src="https://player.vimeo.com/video/501090322" width="1200" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
+    iframe.innerHTML = descriptionsES[randomNum][4];
     document.getElementById("episode").appendChild(iframe);
     iframe.classList.add('video')
 }

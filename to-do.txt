@@ -1,2 +1,0 @@
-- Poner lineas que apunten a la nada, quizas curvas
-- Relacionar videos con objeto json
