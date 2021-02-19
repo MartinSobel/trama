@@ -20,8 +20,9 @@ var svg = d3.select("#nodes").append("svg")
 // hard-code some json
 var graph = {
     "nodes":[
+        // Poner el miso orden en el archivo data.js
         {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La tierra, un gran silencio"},
-        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "Titulo impresionante"},
+        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "La paciencia de los fuertes"},
         {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Titulin"},
         {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
         {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Las aventuras de jada"},
