@@ -1,3 +1,2 @@
 - Poner lineas que apunten a la nada, quizas curvas
-- Relacionar puntitos D3 con titulos objeto json
 - Relacionar videos con objeto json

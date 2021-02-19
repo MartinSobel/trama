@@ -7,7 +7,7 @@ let descriptionsES = [
         "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif"
     ],
     [
-        'Titulazo',
+        'La paciencia de los fuertes',
         '54min',
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, laborum.",
         "https://comunidad.iebschool.com/iebs/files/2016/02/Taco_Party_4.gif"

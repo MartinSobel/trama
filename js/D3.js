@@ -20,7 +20,7 @@ var svg = d3.select("#nodes").append("svg")
 // hard-code some json
 var graph = {
     "nodes":[
-        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La paciencia de los fuertes"},
+        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La tierra, un gran silencio"},
         {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "Titulo impresionante"},
         {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Titulin"},
         {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "Tituleque"},
@@ -91,7 +91,7 @@ node.each(function(d){
       //.text(function(d) { return d.url; })
       .append("text")
         .on("click", function(){
-          renderDescription();
+          renderDescription(d.id);
           // console.log(d.name);
         })
       .attr("dx", 8)

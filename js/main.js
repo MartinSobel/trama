@@ -1,4 +1,4 @@
-function renderDescription(){
+function renderDescription(d){
     if(document.getElementById("description")){
         document.body.removeChild(document.getElementById("description"));
     }
@@ -11,7 +11,8 @@ function renderDescription(){
     div.appendChild(descriptionText);
     descriptionText.id = "descriptionText";
 
-    let randomNum = Math.floor((Math.random() * 10) + 1);
+    // let randomNum = Math.floor((Math.random() * 10) + 1);
+    let randomNum = d;
 
     let title = document.createElement('h3');
     title.id = 'title';
