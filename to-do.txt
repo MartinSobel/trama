@@ -1,0 +1,4 @@
+- Configurar github pages para que muestre D3
+- Integrar videos desde vimeo
+- Poner lineas que apunten a la nada, quizas curvas
+- Relacionar puntitos D3 con titulos objeto json
