@@ -79,12 +79,8 @@ function renderEpisode(randomNum){
     ficha.innerText = 'Guion: Persona 1, Luces: Persona 2, Sonido: Persona 3';
     document.getElementById("info").appendChild(ficha);
 
-    let video = document.createElement('video');
-    video.width = '1000';
-    video.controls = true;
-    video.controlsList = "nodownload";
-    let source = document.createElement('source');
-    source.src = 'https://www.w3schools.com/html/mov_bbb.mp4';
-    video.appendChild(source);
-    document.getElementById("episode").appendChild(video);
+    let iframe = document.createElement('div');
+    iframe.innerHTML = '<iframe src="https://player.vimeo.com/video/501090322" width="1200" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
+    document.getElementById("episode").appendChild(iframe);
+    iframe.classList.add('video')
 }
