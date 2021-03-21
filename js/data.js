@@ -4,7 +4,7 @@ let descriptionsES = [
         'La tierra, un gran silencio',
         '1h 20min',
         "No se veían hace más de un año Tendrán que hablar y tendrán que hacer silencio. El reencuentro tiene un rostro ambiguo...",
-        "/assets/images/thumbnails/La tierra.jpg",
+        "assets/images/thumbnails/La tierra.jpg",
         '<iframe src="https://player.vimeo.com/video/501090322" width="1200" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
     ],
     [
