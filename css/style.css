@@ -15,7 +15,7 @@ html, body{
   height: 400px;
   position: absolute;
   top: 0;
-  right: 600px;
+  right: 400px;
 }
 
 #particles-js{
@@ -111,7 +111,7 @@ h3{
 
 #ver{
   position: absolute;
-  right: 20px;
+  right: 0px;
   top: 20px;
   font-size: 40px;
   cursor: pointer;

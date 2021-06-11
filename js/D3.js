@@ -1,6 +1,6 @@
 //Constants for the SVG
-var width = 900,
-height = 900;
+var width = 800,
+height = 800;
 
 //Set up the colour scale
 var color = d3.scale.category10();
@@ -8,7 +8,7 @@ var color = d3.scale.category10();
 //Set up the force layout
 var force = d3.layout.force()
 .charge(-700)
-.linkDistance(500)
+.linkDistance(300)
 .size([width, height]);
 
 
@@ -78,7 +78,7 @@ var node = svg.selectAll(".node")
   .call(force.drag);
 
 node.append("circle")
-  .attr("r", 6)
+  .attr("r", 3)
   .style("fill",  "#ffffff")
 
 
@@ -95,8 +95,8 @@ node.each(function(d){
           renderDescription(d.id);
           // console.log(d.name);
         })
-      .attr("dx", 8)
-      .attr("dy", 3)
+      .attr("dx", 3)
+      .attr("dy", 2)
       .attr("text-anchor", "start")
       .text(function(d) { return d.text; });
   } else {
