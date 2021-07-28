@@ -170,3 +170,11 @@ h3{
     width: 100px;
   }
 }
+
+#gifContainer{
+  margin-left: 100px;
+}
+
+#gif{
+  width: 400px;
+}
