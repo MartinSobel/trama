@@ -1,3 +1,4 @@
+function trama(){
 //Constants for the SVG
 var width = 800,
 height = 800;
@@ -13,9 +14,7 @@ var force = d3.layout.force()
 
 
 //Append a SVG to the body of the html page. Assign this SVG as an object to svg
-var svg = d3.select("#nodes").append("svg")
-.attr("width", width)
-.attr("height", height);
+var svg = d3.select("#nodes").append("svg").attr("width", width).attr("height", height);
 
 // hard-code some json
 var graph = {
@@ -95,7 +94,7 @@ node.each(function(d){
           renderDescription(d.id);
           // console.log(d.name);
         })
-      .attr("dx", 3)
+      .attr("dx", 2)
       .attr("dy", 2)
       .attr("text-anchor", "start")
       .text(function(d) { return d.text; });
@@ -142,3 +141,4 @@ force.on("tick", function () {
       return d.y;
     });
 });
+}
