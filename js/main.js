@@ -31,8 +31,9 @@ function renderDescription(d){
     description.innerText = descriptionsES[randomNum][2];
     document.getElementById("descriptionText").appendChild(description);
 
-    let ver = document.createElement('i');
-    ver.classList.add('icofont-play-alt-2');
+    let ver = document.createElement('p');
+    ver.innerText = "VER EPISODIO"
+    // ver.classList.add('icofont-play-alt-2');
     ver.id = 'ver';
     ver.addEventListener('click', function(){
         renderEpisode(randomNum);

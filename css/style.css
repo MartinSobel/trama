@@ -27,6 +27,12 @@ html, body{
   background-repeat: no-repeat;
 }
 
+#logoIzq{
+  position: absolute;
+  width: 100px;
+  bottom: 0px;
+}
+
 /* D3 */
 .node {
   stroke: rgb(172, 172, 172);
@@ -110,10 +116,12 @@ h3{
 }
 
 #ver{
-  position: absolute;
-  right: 0px;
-  top: 20px;
-  font-size: 40px;
+  position: relative;
+  top: 0px;
+  text-align: right;
+  margin-top: 0px !important;
+  color: #337ab7;
+  font-size: 15px;
   cursor: pointer;
 }
 
