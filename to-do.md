@@ -1,7 +1,13 @@
 # To-do
-- Ajustar a mobile
+movimiento fluido de fisica
+mostrar constelaciones cuando se ingresa
+click afuera para de preview y se qe cierre
 
-- Cargar videos desde vimeo en privado
-- Crear version en ingles
+sacar margin top en welcome (1280)
+preview mas margin top y left
+ajustar tamanio en reproduccion
+ajustar a mobile
 
-- Poner lineas que apunten a la nada, quizas curvas, quizas mas cortas o mas largas
+cargar fichas y sinopsis
+argar videos desde vimeo en privado
+Crear version en ingles
