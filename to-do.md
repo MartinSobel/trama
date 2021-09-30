@@ -1,6 +1,7 @@
 # To-do
-cargar version en ingles
 ajustar breakpoints tamanios
 
-cargar videos desde vimeo en privado
+# depende de ellxs
+cargar textos en ingles
+cargar videos desde vimeo en privado y actualizar duraciones
 cargar miniaturas
