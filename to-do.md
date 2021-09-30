@@ -1,7 +1,6 @@
 # To-do
-cargar fichas y sinopsis
+cargar version en ingles
+ajustar breakpoints tamanios
 
 cargar videos desde vimeo en privado
-cargar version en ingles
-click afuera para de preview y q se cierre
-ajustar a mobile
+cargar miniaturas

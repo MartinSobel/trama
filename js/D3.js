@@ -1,4 +1,3 @@
-function trama(){
 //Constants for the SVG
 var width = 800,
 height = 800;
@@ -9,27 +8,29 @@ var color = d3.scale.category10();
 //Set up the force layout
 var force = d3.layout.force()
 .charge(-700)
-.linkDistance(300)
+.linkDistance(250)
 .size([width, height]);
 
 
 //Append a SVG to the body of the html page. Assign this SVG as an object to svg
-var svg = d3.select("#nodes").append("svg").attr("width", width).attr("height", height);
+var svg = d3.select("#nodes").append("svg")
+.attr("width", width)
+.attr("height", height);
 
 // hard-code some json
 var graph = {
     "nodes":[
         // Poner el miso orden en el archivo data.js
         {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La tierra, un gran silencio"},
-        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "Em leaves the theater"},
-        {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "The alley"},
-        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler"},
-        {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una incertidumbre que se propaga"},
-        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "La nave de la distancia"},
-        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Ana"},
-        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Inercia"},
-        {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: "Sirena en la ventana"},
-        {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: "¿Qué quieren hacer con las cenizas?"},
+        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler"},
+        {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Em deja el teatro"},
+        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "La nave de la distancia"},
+        {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una inestabilidad que se propaga"},
+        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "El callejón"},
+        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Sonidos que no existen"},
+        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Fin"},
+        {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: ""},
+        {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: ""},
     ],
     "links":[
         {"source":1,"target":0,"value":1},
@@ -94,7 +95,7 @@ node.each(function(d){
           renderDescription(d.id);
           // console.log(d.name);
         })
-      .attr("dx", 2)
+      .attr("dx", 3)
       .attr("dy", 2)
       .attr("text-anchor", "start")
       .text(function(d) { return d.text; });
@@ -141,4 +142,3 @@ force.on("tick", function () {
       return d.y;
     });
 });
-}

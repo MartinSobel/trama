@@ -78,7 +78,7 @@ function renderEpisode(randomNum){
     document.getElementById("info").appendChild(description);
 
     let ficha = document.createElement('p');
-    ficha.innerText = 'Guion: Persona 1, Luces: Persona 2, Sonido: Persona 3';
+    ficha.innerText = descriptionsES[randomNum][5];
     document.getElementById("info").appendChild(ficha);
 
     let iframe = document.createElement('div');
