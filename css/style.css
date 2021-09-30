@@ -95,7 +95,7 @@ a{
   color: white;
   position: absolute;
   left: 3%;
-  top: 3%;
+  top: 5%;
   padding: 10px;
   border-radius: 10px;
   z-index: 1;
@@ -149,18 +149,26 @@ h3{
   position: relative;
   padding: 20px;
   margin: auto;
-  width: 250px;
+  width: 500px;
   height: 600px;
 }
 
 .video{
-  width: 90%;
+  width: 800px;
   margin: auto;
   order: -1;
 }
 
+.vp-center{
+  width: 100px;
+}
+
 #episodeDescription{
   font-style: italic;
+}
+
+iframe{
+  width: 900px;
 }
 
 @media only screen and (max-width: 1100px) {
