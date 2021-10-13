@@ -79,6 +79,7 @@ function renderEpisode(randomNum){
 
     let ficha = document.createElement('p');
     ficha.innerText = descriptionsES[randomNum][5];
+    ficha.id = 'episodeFicha'
     document.getElementById("info").appendChild(ficha);
 
     let iframe = document.createElement('div');

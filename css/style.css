@@ -172,8 +172,8 @@ h3{
 #info{
   position: relative;
   padding: 20px;
-  margin-top: 200px;
-  width: 500px;
+  margin-top: 10px;
+  width: 17vw;
   height: 600px;
 }
 
@@ -189,10 +189,15 @@ h3{
 
 #episodeDescription{
   font-style: italic;
+  color: rgb(189, 174, 174);
+}
+
+#episodeFicha{
+  color: rgb(119, 116, 116);
 }
 
 iframe{
-  width: 1200px;
+  width: 75vw !important;
 }
 
 @media only screen and (max-width: 1100px) {
