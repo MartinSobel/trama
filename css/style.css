@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400&display=swap');
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #242424; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 /* Main */
 html, body{ 
   font-family: 'Catamaran', sans-serif !important;
@@ -63,6 +79,10 @@ html, body{
   text-align: justify;
 }
 
+.modal-body .about{
+  width: 1900px !important;
+}
+
 #metodosPago{
   align-items: center;
   display: flex;
@@ -111,6 +131,7 @@ a{
 #description p{
   padding-top: 10px;
   font-style: italic;
+  text-align: justify;
 }
 
 h3{
@@ -145,12 +166,13 @@ h3{
   padding: 10px;
   border-radius: 10px;
   z-index: 10;
+  text-align: justify;
 }
 
 #info{
   position: relative;
   padding: 20px;
-  margin: auto;
+  margin-top: 200px;
   width: 500px;
   height: 600px;
 }
@@ -170,7 +192,7 @@ h3{
 }
 
 iframe{
-  width: 900px;
+  width: 1200px;
 }
 
 @media only screen and (max-width: 1100px) {

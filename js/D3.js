@@ -95,8 +95,8 @@ node.each(function(d){
           renderDescription(d.id);
           // console.log(d.name);
         })
-      .attr("dx", 3)
-      .attr("dy", 2)
+      .attr("dx", 5)
+      .attr("dy", 5)
       .attr("text-anchor", "start")
       .text(function(d) { return d.text; });
   } else {
@@ -136,7 +136,7 @@ force.on("tick", function () {
     });
 
   d3.selectAll("text").attr("x", function (d) {
-    return d.x * 1.01;
+    return d.x * 1.05;
   })
     .attr("y", function (d) {
       return d.y;
