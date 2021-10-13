@@ -21,7 +21,7 @@ var svg = d3.select("#nodes").append("svg")
 var graph = {
     "nodes":[
         // Poner el miso orden en el archivo data.js
-        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La tierra, un gran silencio"},
+        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La Tierra, un gran silencio"},
         {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler"},
         {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Em deja el teatro"},
         {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "La nave de la distancia"},
