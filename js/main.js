@@ -1,3 +1,9 @@
+// window.addEventListener('click', function(e){
+//     if(! this.document.getElementById('description').contains(e.target)){
+//         document.body.removeChild(document.getElementById("description"));
+//     }
+// })
+
 function renderDescription(d){
     if(document.getElementById("description")){
         document.body.removeChild(document.getElementById("description"));
