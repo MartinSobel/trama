@@ -19,13 +19,13 @@ function renderDescription(d){
     title.innerText = descriptionsES[randomNum][0] + ' ';
     document.getElementById("descriptionText").appendChild(title);
 
-    let duracion = document.createElement('span');
+    let duracion = document.createElement('h4');
     duracion.innerText = descriptionsES[randomNum][1] + ' ';
     document.getElementById("descriptionText").appendChild(duracion);
 
-    let timeIcon = document.createElement('i');
-    timeIcon.classList.add('icofont-ui-clock');
-    document.getElementById("descriptionText").appendChild(timeIcon);
+    // let timeIcon = document.createElement('i');
+    // timeIcon.classList.add('icofont-ui-clock');
+    // document.getElementById("descriptionText").appendChild(timeIcon);
 
     let description = document.createElement('p');
     description.innerText = descriptionsES[randomNum][2];
