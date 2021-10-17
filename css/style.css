@@ -27,11 +27,11 @@ html, body{
 }
 
 #nodes{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   position: absolute;
   top: 0;
-  right: 400px;
+  right: 500px;
 }
 
 #particles-js{
