@@ -2,7 +2,7 @@ let descriptionsES = [
     [],
     [
         'La Tierra, un gran silencio',
-        '1h 20min',
+        '66 min',
         "No se veían hace más de un año. Tendrán que hablar y tendrán que hacer silencio. El reencuentro tiene un rostro ambiguo...",
         "assets/images/thumbnails/La Tierra, un gran silencio 16-9 Dibujo.jpg",
         '<iframe src="https://player.vimeo.com/video/631429742" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -10,7 +10,7 @@ let descriptionsES = [
     ],
     [
         'No te tiene que doler',
-        '54min',
+        '23 min',
         "Tato y Clara habían planeado una noche de sexo. La conversación les llevó para otro lado. ¿Y si nos decimos lo que no nos gusta?",
         "assets/images/thumbnails/No te tiene que doler 16-9 Dibujo.jpg",
         '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -18,7 +18,7 @@ let descriptionsES = [
     ],
     [
         'Em deja el teatro',
-        '1h 10min',
+        '55 min',
         "Em vende el teatro, su proyecto de vida. Lo que queda es lluvia, animales, pianos, amigxs, intentos inútiles de hacer sentido.",
         "assets/images/thumbnails/TRAMA Em Still 110 (corregida).jpg",
         '<iframe src="https://player.vimeo.com/video/631418639" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -34,7 +34,7 @@ let descriptionsES = [
     ],
     [
         'Una inestabilidad que se propaga',
-        '1h 8min',
+        '46 min',
         "Octubre 2019. Max se muda a otro país, pero son les otres los que se mueven. Ana, Caro, Uli, Teo, Sabrina, Andi, Lili, Javiera, el pueblo chileno. Javiera acaba de llegar a Buenos Aires, viene de participar en la revuelta en Chile, quiere abrazos y quiere guerra.",
         "assets/images/thumbnails/TRAMA Una inestabilidad Still 1.jpg",
         '<iframe src="https://player.vimeo.com/video/635702551?h=4f70e73e00" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
