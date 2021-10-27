@@ -45,7 +45,7 @@ html, body{
 
 #logoIzq{
   position: absolute;
-  width: 100px;
+  width: 15vw;
   bottom: 0px;
 }
 
@@ -79,6 +79,11 @@ html, body{
   text-align: justify;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 .modal-body .about{
   width: 1900px !important;
 }
@@ -93,6 +98,11 @@ button{
   color: black !important;
   margin-left: 20px;
   border-radius: 10px;
+}
+
+#abonarbtn{
+  width: 70px;
+  margin: auto;
 }
 
 /* Nav */
@@ -146,6 +156,7 @@ h3{
   color: #337ab7;
   font-size: 15px;
   cursor: pointer;
+  font-style: normal !important;
 }
 
 #trailer{

@@ -49,11 +49,11 @@
               </div>
               <!-- <a href="">Switch to ENG</a> -->
             </div>
-            <div class="modal-body">
+            <div class="modal-body about">
               <p>TRAMA es una serie sin principio ni fin. Los episodios pueden verse en cualquier orden. Entra a la red por donde quieras.</p>
               <p>Aquí puedes pagar para acceder. Tu aporte nos permite realizar más episodios y seguir desarrollando esta obra. <p>
               <p>ESTO ES UNA AVANT-PREMIER DE LA SERIE. LA WEB NO ESTÁ DEL TODO LISTA. De los 8 episodios que se estrenarán el 25 de noviembre, hay 4 que ya se pueden ver</p>
-              <button onclick="$('#welcome').modal('hide'); $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
+              <button id="abonarbtn" onclick="$('#welcome').modal('hide'); $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
             </div>
 
             <div class="modal-footer">
@@ -120,7 +120,8 @@
               <h4 class="modal-title">[GIF TRAMA]</h4>
             </div>
             <div class="modal-body">
-              <p>Valoramos tu aporte, por favor, selecciona el metodo de pago que prefieras:<p>
+              <p>Valor de la entrada: contribución voluntaria. Tu aporte nos permite realizar más episodios y seguir desarrollando esta obra.
+                <p>
                 <div id="metodosPago">
                   <div>
                     <a target="_blank" href="https://www.mercadopago.com.ar/activities">
