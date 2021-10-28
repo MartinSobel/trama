@@ -13,13 +13,6 @@ function renderDescription(d){
     document.body.appendChild(div);
     div.id = "description";
 
-    let closeBtn = document.createElement('a')
-    closeBtn.innerText = 'cerrar'
-    closeBtn.id = 'closeBtn'
-    div.appendChild(closeBtn)
-    closeBtn.addEventListener('click', function(){
-        document.body.removeChild(document.getElementById("description"));
-    });
 
     let descriptionText = document.createElement('div');
     div.appendChild(descriptionText);
@@ -45,14 +38,26 @@ function renderDescription(d){
     description.innerText = descriptionsES[randomNum][2];
     document.getElementById("descriptionText").appendChild(description);
 
-    let ver = document.createElement('p');
+    let buttons = document.createElement('div')
+    buttons.id = 'buttonsContainer'
+    document.getElementById('description').appendChild(buttons);
+
+    let ver = document.createElement('span');
     ver.innerText = "VER EPISODIO"
     // ver.classList.add('icofont-play-alt-2');
     ver.id = 'ver';
     ver.addEventListener('click', function(){
         renderEpisode(randomNum);
     });
-    document.getElementById('description').appendChild(ver);
+    document.getElementById('buttonsContainer').appendChild(ver);
+
+    let closeBtn = document.createElement('a')
+    closeBtn.innerText = 'cerrar'
+    closeBtn.id = 'closeBtn'
+    buttons.appendChild(closeBtn)
+    closeBtn.addEventListener('click', function(){
+        document.body.removeChild(document.getElementById("description"));
+    });
 
     let trailer = document.createElement('img');
     trailer.src = descriptionsES[randomNum][3];

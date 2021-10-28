@@ -85,8 +85,16 @@ html, body{
   flex-direction: column;
 }
 
+.about h3{
+  color: #337ab7;
+}
+
 .modal-body .about{
   width: 1900px !important;
+}
+
+#about{
+  background-color: black;
 }
 
 #metodosPago{
@@ -135,7 +143,11 @@ a{
 }
 
 #closeBtn{
-  margin-left: 400px;
+  margin-left: 300px;
+}
+
+#buttonsContainer{
+  display: inline;
 }
 
 #descriptionText{
@@ -167,6 +179,7 @@ h3{
 #trailer{
   height: 250px;
   padding-bottom: 10px;
+  display: block;
 }
 
 /* Episodio */
