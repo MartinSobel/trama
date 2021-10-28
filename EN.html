@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TRAMA</title>
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+  </head>
+
+  <body onload="$('#welcome').modal('show'); $('#about').modal('hide'); $('#about').modal('hide'); document.getElementById('nav').style.display = 'none';" >
+    
+    <div id="particles-js"></div>
+    <div id="nodes"></div>
+
+    <!-- scripts -->
+    <script src="js/D3.js" defer></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particlesApp.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/data.js"></script>
+
+    <div id="nav">
+      <a onclick="$('#abonar').modal('show');">Abonar</a>
+      <a onclick="$('#about').modal('show');">About</a>
+      <a href="https://www.reticularfilms.com/">RETICULAR films</a>
+    </div>
+
+    <img src="assets\images\Logo TRAMA azul letra peq para web.png" alt="" id="logoIzq">
+
+   <!-- Welcome modal -->
+    <div class="container">
+      <div class="modal fade" id="welcome" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <div id="gifContainer">
+                <img src="assets\images\Logo TRAMA azul letra peq para web.jpg" alt="" id="gif">
+              </div>
+              <a href="index.html">Switch to ESP</a>
+            </div>
+            <div class="modal-body about">
+              <p>TRAMA es una serie sin principio ni fin. Los episodios pueden verse en cualquier orden. Entra a la red por donde quieras.</p>
+              <p>Aquí puedes pagar para acceder. Tu aporte nos permite realizar más episodios y seguir desarrollando esta obra. Valor de la entrada: contribución voluntaria. <p>
+              <p>ESTO ES UNA AVANT-PREMIER DE LA SERIE. LA WEB NO ESTÁ DEL TODO LISTA. De los 8 episodios que se estrenarán el 25 de noviembre, hay 4 que ya se pueden ver</p>
+              <button id="abonarbtn" onclick="$('#welcome').modal('hide'); $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
+            </div>
+
+            <div class="modal-footer">
+              <p>Si ya pagaste, quieres pagar más adelante o no puedes pagar, <a href="" data-dismiss="modal" onclick="document.getElementById('nav').style.display = 'inherit';  trama();">entra ahora</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About modal -->
+    <div class="container">
+      <div class="modal fade" id="about" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title">ABOUT</h4>
+            </div>
+            <div class="modal-body about">
+              <h4>Historia del proyecto - Sobre nuestra investigación - Agradecimientos</h4>
+
+              <h3>History of the project</h3>
+              <p>TRAMA (you can translate it as network, web, tissue, fabric, plot) was born in 2011, as a series of formless ideas. Out of that web of ideas came the feature film Scenes from a Broken Party (written and directed by Jada Sirkin, released in 2017). In 2017, after years of waiting for the moment, the TRAMA project was activated when Jada participated in Resonancias, a residency for artists in Umepay, Córdoba, Argentina, organized by Mercedes Miró and Constanza Soria. Back in Buenos Aires, Jada formed a research and writing group with Mauricio Sandoval Ron, Sara Jiménez Molina, Marcos Wem Wertheimer and Joy Podlischevsky. In 2018 Dama David and Jazmín Ruffo joined the group. The group, out of personal research and collective games, developed a series of scripts for what could be the first episodes of the series. A first episode was shot in April 2019. The shooting was declared a failure, and the failure brought liberating novelty. Dama David joined Jada Sirkin in producing and directing. The group mutated. The scripts mutated. Rehearsals began. In July 2019 Jada and Dama traveled to the United States and Canada, where they shot what would be the actual first episodes of the series. In September of that year, filming began in Buenos Aires; and in February 2020 in Pucón, Chile. </p>
+              <p>We like to think that TRAMA has its own intelligence and makes its own decisions. All the "failures" (there have been many) end up revealing themselves, more than as endings, as turns that enhance the investigation. We think of fiction as a laboratory to find what cannot be faked. As Eugenio Barba said, to pretend in order to stop pretending. At the same time that we are creating the series as a product, as a piece, we are researching the creative process. The laboratory does not happen only within the circle of fiction, in fact fiction is to a large extent informed by what happens in the journey of creating it.
+              </p>
+              
+              <hr>
+              <h3>About our research</h3>
+              <p>The focus of our fictional research is in the way we think about drama, storytelling, characters' sensitivity and their encounters (the scenes), and what we’ve been calling the fight-listen dynamic -or the drama and the web (trama). We start from an observation of narrative tendencies (what is generally seen in movies, series and literary fiction) and from the observation of daily life tendencies (how we live, how we think, how we feel, how we interact). We notice that human beings (in their fictions and realities) have been manifesting a rather dramatic way of relating to experience. </p>
+              <p>What do we mean by drama? We think of drama as the unfolding of the unconscious reactions of the personality, the world lived from the organization of the I, which refuses to perceive itself as part of a wider web (trama). Drama is thought of as the struggle between a self and a world from which it perceives itself as separate. The hypothesis is that we fight in order to not listen, because listening implies questioning our identities and our emotional and mental shelters. Listening implies acknowledging that growth is not only personal and human, but also collective and terrestrial. The individual drama as part of an intelligent network (trama).</p>
+              <p>Conditioned by biology, culture and personal experience, we humans react. What is it to react? We propose to think of reaction as a response conditioned by the scripts of our individual and collective unconscious. We think that we human beings live, mostly, in a reactive way; that is, as puppets of our own identities, constructions, mythologies and projections. </p>
+              <p>Our lives, and our fictional stories, rely, above all, on this way of functioning, which mostly relies on a moral, binary or polarized perception of experience. We judge the things that happen to us as either good or bad. And stories invariably lead us to get better or worse. 
+              </p>
+              <p> Classic narrative: in the stable life of a character, something produces an imbalance and the conflict must be resolved. Good fights against evil, happiness is opposed to misery, one wins and the other loses, success is opposed to failure, bad people are terrible and the good ones only seek light. </p>
+              <p>This simplification is queen of fiction (and reality, so intertwined with our fictions). We simplify to solve, to feel safe, to survive. We have an addiction to endings and resolutions because we are terrified of inhabiting uncertainty, the open. We humans narrate to define what is good and what is bad, to map the complexity of experience and feel we step on solid ground.</p>
+              <p>We could say that, to a large extent, we tell stories to feel safe.  </p>
+              <p> For thousands of years we’ve been telling ourselves the same stories, and in the same ways. Our narrative relies on what we call conflict. A main focus in our research is the question about conflict: if conflict is the need to dissolve a tension, can we experience tension without the need to resolve it?  </p>
+              <p>Can we talk and coexist without the need to fall into the arguing mode and the need to defeat the opponent or come to an agreement? Can we recognize and experience differences without the need to eliminate them? What happens when, as we encounter with each other, we give space to difference? Can we develop a sensitivity that allows us to sustain contradictory perceptions at the same time?</p>
+              <p>All this complexity emerges in a very simple search. We propose an innocent gaze that focuses in the life of each image, gesture, and encounter. Our interest, beyond all these ideas, is to see human beings alive, discovering life, rediscovering themselves in the interactive relational dance. More than transmitting ideas, we want to create contexts for reflexion, contemplation, tenderness and wonder.</p>
+
+              <hr>
+              <h3>Thanks</h3>
+              <p>We want to thank especially to
+                Camila Torres, Sharon Cohen Goldfrid, Denisse Bustos, Sol Bordigoni, José Ratti, Mizu Desierto, Kelly Nesbitt, Lolo Haha, Stephanie Lankton, Wem Wertheimer, Magalí Aldabe, Lehúm Sbarra, Adrián Gleizer, Sara Jimenez Molina, Mauricio Sandoval Ron, Joy Podlischevsky, Felipe David, Klaudia Burgos, Mercedes Miró, Constanza Soria, RESONANCIAS Art Residencia.</p>
+              <p>We also thank to all the people who donated to the crowdfunding campaign, and made the premiere possible. Thank you  </p>
+              <p>Felipe David, Klaudia Burgos, Hugo Sirkin, Mirta Prigoshin, Enrique Bhome, Anita Strappa, María Betania Mundarin, Malena Morandi, Rodrigo David, Ivana Morello, Kelly Nesbitt, Yaara Valley, Lolo Haha, María Graciela Gómez, Flor Ringeling, Nica Rivas, Tite Ares, Marina Bailo, Flor Buzzo, Paula Almada, Melissa Piccioli, Paloma Zamorano, Florencia Trias, Paulina Leighton</p>
+              <p>Finally, we are very grateful to the Fondo Nacional de las Artes (FNArtes, Argentina), who gave us a creation grant (2021), with which we were able to pay important costs.</p>
+              <p>And to all the people who in one way or another collaborated with TRAMA!</p>
+
+              <hr>
+              <p>Dirección y producción general: Jada Sirkin & Dama David</p>
+              <p>Web design and programing: Martin Sobel</p>
+              <p>Logo design: Josefina Bustillo</p>
+              <p>Press and networking: Valeria Trejo, Julieta Gottlib y Maya Kerschen.</p>
+              <p>RETICULAR Films</p>
+            </div>
+
+            <div class="modal-footer">
+              <a href="" data-dismiss="modal">Back</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Abonar modal -->
+    <div class="container">
+      <div class="modal fade" id="abonar" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <h4 class="modal-title">ABONAR</h4>
+            </div>
+            <div class="modal-body">
+              <p>Valor de la entrada: contribución voluntaria. Tu aporte nos permite realizar más episodios y seguir desarrollando esta obra.
+                <p>
+                <div id="metodosPago">
+                  <div>
+                    <a target="_blank" href="https://www.mercadopago.com.ar/activities">
+                      <img src="assets/images/mercadopago.png" alt="">
+                    </a>
+                  </div>
+                  <div>
+                    <a target="_blank" href="https://www.paypal.com/ar/home">
+                      <img src="assets/images/paypal.png" alt="">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button><a href="" data-dismiss="modal" onclick="trama();">Ingresar</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
