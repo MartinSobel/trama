@@ -212,8 +212,9 @@ h3{
   position: relative;
   padding: 20px;
   bottom: 0;
-  width: 95vw;
-  height: 600px;
+  width: 60vw;
+  margin-left: 15vw;
+  height: 300px;
 }
 
 .video{
@@ -230,13 +231,18 @@ h3{
 #regresar{
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 15vw;
   font-size: 20px;
+  z-index: 20;
 }
 
 #episodeDescription{
   font-style: italic;
   color: rgb(189, 174, 174);
+}
+
+#episodeTitle{
+  margin-left: 15vw;
 }
 
 #episodeFicha{
@@ -245,7 +251,6 @@ h3{
 
 iframe{
   width: 65vw !important;
-  margin-top: 30px;
   margin-left: 15vw !important;
 }
 
