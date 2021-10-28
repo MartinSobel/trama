@@ -59,7 +59,8 @@ html, body{
   stroke: rgb(131, 129, 129);
 }
 
-.node text {
+.node text { 
+  font-family: 'Catamaran', sans-serif !important;
   font: 14px sans-serif;
   color: white;
   letter-spacing: 0.5px;
@@ -131,6 +132,10 @@ a{
   padding: 10px;
   border-radius: 10px;
   z-index: 1;
+}
+
+#closeBtn{
+  margin-left: 400px;
 }
 
 #descriptionText{

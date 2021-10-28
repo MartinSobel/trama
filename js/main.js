@@ -13,6 +13,14 @@ function renderDescription(d){
     document.body.appendChild(div);
     div.id = "description";
 
+    let closeBtn = document.createElement('a')
+    closeBtn.innerText = 'cerrar'
+    closeBtn.id = 'closeBtn'
+    div.appendChild(closeBtn)
+    closeBtn.addEventListener('click', function(){
+        document.body.removeChild(document.getElementById("description"));
+    });
+
     let descriptionText = document.createElement('div');
     div.appendChild(descriptionText);
     descriptionText.id = "descriptionText";
