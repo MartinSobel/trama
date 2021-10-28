@@ -43,7 +43,7 @@ function renderDescription(d){
     document.getElementById('description').appendChild(buttons);
 
     let ver = document.createElement('span');
-    ver.innerText = "VER EPISODIO"
+    ver.innerText = "Ver episodio"
     // ver.classList.add('icofont-play-alt-2');
     ver.id = 'ver';
     ver.addEventListener('click', function(){
@@ -52,7 +52,7 @@ function renderDescription(d){
     document.getElementById('buttonsContainer').appendChild(ver);
 
     let closeBtn = document.createElement('a')
-    closeBtn.innerText = 'cerrar'
+    closeBtn.innerText = 'Regresar'
     closeBtn.id = 'closeBtn'
     buttons.appendChild(closeBtn)
     closeBtn.addEventListener('click', function(){
@@ -73,6 +73,11 @@ function renderEpisode(randomNum){
     document.body.appendChild(div);
     div.id = "episode";
 
+    let iframe = document.createElement('div');
+    iframe.innerHTML = descriptionsES[randomNum][4];
+    document.getElementById("episode").appendChild(iframe);
+    iframe.classList.add('video')
+        
     let info = document.createElement('div');
     div.appendChild(info);
     info.id = "info";
@@ -84,12 +89,12 @@ function renderEpisode(randomNum){
         document.body.removeChild(document.getElementById("episode"));
         nav.style.display = 'inherit';
     });
-    document.getElementById("info").appendChild(regresar);
+    document.getElementById("episode").appendChild(regresar);
 
     let title = document.createElement('h2');
     title.innerText = descriptionsES[randomNum][0];
     title.id = 'episodeTitle'
-    document.getElementById("info").appendChild(title);
+    document.getElementById("episode").appendChild(title);
 
     let description = document.createElement('p');
     description.innerText = descriptionsES[randomNum][2];
@@ -101,8 +106,5 @@ function renderEpisode(randomNum){
     ficha.id = 'episodeFicha'
     document.getElementById("info").appendChild(ficha);
 
-    let iframe = document.createElement('div');
-    iframe.innerHTML = descriptionsES[randomNum][4];
-    document.getElementById("episode").appendChild(iframe);
-    iframe.classList.add('video')
+    
 }
