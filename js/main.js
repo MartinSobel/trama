@@ -73,14 +73,9 @@ function renderEpisode(randomNum){
     document.body.appendChild(div);
     div.id = "episode";
 
-    let iframe = document.createElement('div');
-    iframe.innerHTML = descriptionsES[randomNum][4];
-    document.getElementById("episode").appendChild(iframe);
-    iframe.classList.add('video')
-        
-    let info = document.createElement('div');
-    div.appendChild(info);
-    info.id = "info";
+    let header = document.createElement('div')
+    div.appendChild(header);
+    header.id = 'header';
 
     let regresar = document.createElement('a');
     regresar.innerText = '< Regresar';
@@ -89,12 +84,25 @@ function renderEpisode(randomNum){
         document.body.removeChild(document.getElementById("episode"));
         nav.style.display = 'inherit';
     });
-    document.getElementById("episode").appendChild(regresar);
+    document.getElementById("header").appendChild(regresar);
 
     let title = document.createElement('h2');
     title.innerText = descriptionsES[randomNum][0];
     title.id = 'episodeTitle'
-    document.getElementById("episode").appendChild(title);
+    document.getElementById("header").appendChild(title);
+
+    let iframeContainer = document.createElement('div')
+    div.appendChild(iframeContainer)
+
+    let iframe = document.createElement('div');
+    iframe.innerHTML = descriptionsES[randomNum][4];
+    document.getElementById("episode").appendChild(iframe);
+    iframe.classList.add('video')
+    iframeContainer.appendChild(iframe)
+        
+    let info = document.createElement('div');
+    div.appendChild(info);
+    info.id = "info";
 
     let description = document.createElement('p');
     description.innerText = descriptionsES[randomNum][2];
