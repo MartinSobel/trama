@@ -213,8 +213,9 @@ h3{
   padding: 20px;
   bottom: 0;
   width: 60vw;
-  margin-left: 15vw;
+  margin-left: 13.3vw;
   height: 300px;
+  font-size: 1.3em;
 }
 
 .video{
@@ -234,6 +235,7 @@ h3{
   right: 15vw;
   font-size: 20px;
   z-index: 20;
+  margin-top: 2vh
 }
 
 #episodeDescription{
@@ -242,7 +244,7 @@ h3{
 }
 
 #episodeTitle{
-  margin-left: 15vw;
+  margin-left: 14.4vw;
 }
 
 #episodeFicha{
