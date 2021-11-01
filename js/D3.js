@@ -2,14 +2,26 @@
 var width = 1000,
 height = 800;
 
-//Set up the colour scale
-var color = d3.scale.category10();
-
-//Set up the force layout
 var force = d3.layout.force()
 .charge(-700)
 .linkDistance(250)
 .size([width, height]);
+
+function myFunction(x) {
+  if (x.matches) {
+    width = 300
+    height = 600
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x)
+
+//Set up the colour scale
+var color = d3.scale.category10();
+
+//Set up the force layout
+
 
 
 //Append a SVG to the body of the html page. Assign this SVG as an object to svg

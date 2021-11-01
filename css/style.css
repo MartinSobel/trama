@@ -279,3 +279,45 @@ iframe{
 #gif{
   width: 400px;
 }
+
+@media only screen and (max-width: 600px) {
+  #gifContainer{
+    margin: auto;
+  }
+  #gifContainer img{
+    width: 300px;
+  }
+
+  #description{
+    width: 100%;
+  }
+  #descriptionText{
+    width: 250px;
+  }
+
+  #trailer{
+    height: 170px;
+  }
+  #closeBtn{
+    margin-left: 150px;
+  }
+
+  #regresar{
+    position: inherit;
+  }
+
+  iframe{
+    width: 90vw !important;
+    margin: auto !important;
+  }
+
+  #info{
+    margin: auto;
+  }
+
+  #nodes{
+    right: 60px;
+    width: 300px;
+    height: 600px;
+  }
+}
