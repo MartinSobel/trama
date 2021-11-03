@@ -127,6 +127,15 @@ button{
   margin-top: 40px !important;
 }
 
+.abonarItem img{
+  width: 100px;
+}
+
+.abonarItem span{
+  margin-left: 20px;
+  font-size: 15px;
+}
+
 /* Nav */
 #nav{
   position: absolute;
@@ -231,6 +240,7 @@ h3{
 #header{
   width: 90vw;
   display: inline;
+  margin-bottom: 0px;
 }
 
 #regresar{
