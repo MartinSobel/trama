@@ -123,6 +123,10 @@ button{
   margin: auto;
 }
 
+.abonarItem{
+  margin-top: 40px !important;
+}
+
 /* Nav */
 #nav{
   position: absolute;
@@ -234,7 +238,7 @@ h3{
   top: 20px;
   right: 15vw;
   font-size: 20px;
-  z-index: 20;
+  z-index: 30;
   margin-top: 2vh
 }
 
