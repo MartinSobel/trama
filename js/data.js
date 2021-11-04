@@ -50,18 +50,18 @@ let descriptionsES = [
     ],
     [
         'Sonidos que no existen',
-        '21min',
+        '92min',
         "Caro hace el amor con la luz apagada, dice que no le gusta su cuerpo. Atiende pacientes, pasea por Tinder, mira por la ventana y se imagina el infinito.",
-        "https://images2.minutemediacdn.com/image/upload/c_crop,h_674,w_1200,x_0,y_113/f_auto,q_auto,w_1100/v1554999553/shape/mentalfloss/504605-publicdomain.gif",
-        '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+        "assets/images/thumbnails/Sonidos que no existen 16-9 corregida (1).jpg",
+        '<iframe src="https://player.vimeo.com/video/640757048?h=1fb0ffc775&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         'Con: Sharon Cohen Goldfrid, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martín Sobel, Gustavo Arcuri, Valentín Piñeyro. \n Idea y producción: Sharon Cohen Goldfrid, Dama David, Jada Sirkin \n Dirección y montaje: Jada Sirkin, Dama David Cámara y color: Jada Sirkin \n Sonido directo: José Ratti, Martín Sobel, Maga Taiani, Dama David \n Guión: Sharon Cohen Goldfrid, Dama David, Jada Sirkin, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martin Sobel, Gustavo Arcuri \n Portada y dibujos final: Álvaro Villagra Morales \n Desgrabación: Clemente Felmer Música: Ultrazoppi, Sharon Cohen Golfrid, Mumi Rujana'
     ],
     [
         'Fin',
-        '1h 17min',
+        '60min',
         "En los primeros meses de cuarentena, Camila y Lucas ven una película. Ella se emociona mucho y él se pone duro. Pasan los días y los engranajes de la convivencia revelan hábitos y novedades. ¿Qué nos va a pasar?",
-        "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif",
-        '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+        "assets/images/thumbnails/TRAMA Fin Still 2 (correc).jpg",
+        '<iframe src="https://player.vimeo.com/video/640757048?h=1fb0ffc775&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         'Con: Sol Bordigoni, Jada Sirkin, Mumi Rujana, Rita Messina, Magalí Aldabe, Hernán Bustamante, Sharon Cohen Goldfrid, Jazmín Ruffo, Wem Wertheimer, Keni, Toni \n Dirección, producción, montaje: Dama David, Jada Sirkin Guión: Jada Sirkin, Dama David, Denisse Bustos, Sol Bordigoni, Rita Messina, Mumi Rujana \n Asistencia de arte: María Morín \n Cámara: Dama David, Jada Sirkin \n Sonido directo: Denisse Bustos, Camila Torres, Elsa Wirth, Dama David, Sharon Cohen Goldfrid, Wayra Inti, Facundo Martin, Julián Hercovich. \n Postproducción de sonido: Zub sonido - Emiliano Biaiñ, Marcos Zoppi, Facundo de Vedia \n Desgrabación: Magdalena Chattah \n Música: Eduardo Felenbok, Mumi Rujana, Jada Sirkin'
     ],
 ]

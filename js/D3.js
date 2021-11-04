@@ -39,8 +39,8 @@ var graph = {
         {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: ""}, // La nave de la distancia
         {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una inestabilidad que se propaga"},
         {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: ""}, // El callejón
-        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: ""}, // Sonidos que no existen
-        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: ""}, // Fin
+        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Sonidos que no existen"}, 
+        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Fin"},
         {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: ""},
         {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: ""},
     ],
