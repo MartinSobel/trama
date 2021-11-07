@@ -50,7 +50,7 @@ let descriptionsES = [
     ],
     [
         'Sonidos que no existen',
-        '92min',
+        '92 min',
         "Caro hace el amor con la luz apagada, dice que no le gusta su cuerpo. Atiende pacientes, pasea por Tinder, mira por la ventana y se imagina el infinito.",
         "assets/images/thumbnails/Sonidos que no existen 16-9 corregida (1).jpg",
         '<iframe src="https://player.vimeo.com/video/639727849?h=c881c12cb4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -58,7 +58,7 @@ let descriptionsES = [
     ],
     [
         'Fin',
-        '60min',
+        '60 min',
         "En los primeros meses de cuarentena, Camila y Lucas ven una película. Ella se emociona mucho y él se pone duro. Pasan los días y los engranajes de la convivencia revelan hábitos y novedades. ¿Qué nos va a pasar?",
         "assets/images/thumbnails/TRAMA Fin Still 2 (correc).jpg",
         '<iframe src="https://player.vimeo.com/video/640757048?h=1fb0ffc775&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -118,7 +118,7 @@ let descriptionsEN = [
     ],
     [
         'Sonidos que no existen',
-        '21min',
+        '21 min',
         "Caro makes love with the lights off, says she doesn&#39;t like her body. She sees her patients, swipes through Tinder, looks out the window and pictures infinity.",
         "https://images2.minutemediacdn.com/image/upload/c_crop,h_674,w_1200,x_0,y_113/f_auto,q_auto,w_1100/v1554999553/shape/mentalfloss/504605-publicdomain.gif",
         '<iframe src="https://player.vimeo.com/video/639727849?h=c881c12cb4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -126,7 +126,7 @@ let descriptionsEN = [
     ],
     [
         'Fin',
-        '1h 17min',
+        '60min min',
         "In the first months of quarantine, Camila and Lucas watch a movie. She gets emotional and he gets cold. Days go by and the wheels of living together reveal habits and novelties. What is going to happen to us?",
         "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif",
         '<iframe src="https://player.vimeo.com/video/640757048?h=1fb0ffc775&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479 frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
