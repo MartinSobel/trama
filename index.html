@@ -56,7 +56,8 @@
               <p>Valor de la entrada: contribución voluntaria.<p>
               <p>Tu aporte nos permite realizar más episodios y seguir desarrollando esta obra.</p>
               <p>ESTO ES UNA AVANT-PREMIER DE LA SERIE. LA WEB NO ESTÁ DEL TODO LISTA. De los 8 episodios que se estrenarán el 25 de noviembre, hay 4 que ya se pueden ver</p>
-              <button id="abonarbtn" onclick="$('#welcome').modal('hide'); $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
+              <!-- $('#welcome').modal('hide'); -->
+              <button id="abonarbtn" onclick=" $('#abonar').modal('show'); document.getElementById('nav').style.display = 'inherit';">Abonar</button>
             </div>
 
             <div class="modal-footer">
@@ -149,14 +150,15 @@
                     </a>
                   </div>
                 </div> -->
-                <div class="abonarItem">
-                  <a href="https://mercadopago.com.ar/"><img src="assets/images/mercadopago.png" alt=""></a> 
-                  <span>Mercado Pago en Chile: Enviar a reticularfilms@gmail.com</span>
-                </div>
 
                 <div class="abonarItem">
+                  <span>Mercado Pago Argentina: Enviar a reticularfilms@gmail.com</span>
                   <a href="https://www.mercadopago.cl/"><img src="assets/images/mercadopago.png" alt=""></a> 
-                  <span>Mercado Pago en Argentina: Enviar a reticularfilms@gmail.com</span>
+                </div>
+                
+                <div class="abonarItem">
+                  <span>Mercado Pago Chile: Enviar a reticularfilms@gmail.com</span>
+                  <a href="https://mercadopago.com.ar/"><img src="assets/images/mercadopago.png" alt=""></a> 
                 </div>
 
                 <div class="abonarItem">
@@ -190,7 +192,7 @@
 
 
             <div class="modal-footer">
-              <button><a href="" data-dismiss="modal" onclick="trama();">Ingresar</a></button>
+              <button><a href="" data-dismiss="modal" onclick="trama();">Regresar</a></button>
             </div>
           </div>
         </div>
