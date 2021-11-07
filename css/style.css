@@ -140,6 +140,7 @@ button{
   font-size: 17px;
 }
 
+<<<<<<< HEAD
 .abonarItem h3{
   color: #337ab7;
 }
@@ -153,6 +154,13 @@ button{
 }
 
 
+=======
+#qr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+>>>>>>> 50eb1b8b4cbc7e6b0de1cc7138f4ba859f1f0bd5
 /* Nav */
 #nav{
   position: absolute;
