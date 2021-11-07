@@ -33,16 +33,16 @@ var svg = d3.select("#nodes").append("svg")
 var graph = {
     "nodes":[
         // Poner el miso orden en el archivo data.js
-        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La Tierra, un gran silencio"},
-        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler"},
-        {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Em deja el teatro"},
-        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: ""}, // La nave de la distancia
-        {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una inestabilidad que se propaga"},
-        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: ""}, // El callejón
-        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Sonidos que no existen"}, 
-        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Fin"},
-        {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: ""},
-        {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: ""},
+        {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La Tierra, un gran silencio", engText: "The Earth, a great silence"},
+        {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler", engText: "It shouldn’t hurt you"},
+        {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Em deja el teatro", engText: "Em leaves the theater"},
+        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "", engText: ""}, // La nave de la distancia
+        {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una inestabilidad que se propaga", engText: "A spreading turbulence"},
+        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "", engText: ""}, // El callejón
+        {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Sonidos que no existen", engText: "Unexisting sounds"}, 
+        {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Fin", engText: "The end"},
+        {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: "", engText: ""},
+        {"id": 10, "name":"OldMan","group":1, url: "http://www.anywhere.com", text: "", engText: ""},
     ],
     "links":[
         {"source":1,"target":0,"value":1},
@@ -95,31 +95,58 @@ node.append("circle")
 
 
 // if it's a child, url it
-node.each(function(d){
-  var thisNode = d3.select(this);
-  if (!d.children) {
-    thisNode.append("svg:a")
-      // .attr("xlink:href", function(d) { return d.url; })
-      .attr("target", "_blank")
-      //.text(function(d) { return d.url; })
-      .append("text")
-        .on("click", function(){
-          renderDescription(d.id);
-          // console.log(d.name);
-        })
-      .attr("dx", 5)
-      .attr("dy", 5)
-      .attr("text-anchor", "start")
-      .text(function(d) { return d.text; });
-  } else {
-    thisNode.append("text")
-      .attr("dx", -8)
-      .attr("dy", 3)
-      .attr("text-anchor", "end")
-      .text(function(d) { return d.name; });
-  }
-});
 
+if (EN){
+  node.each(function(d){
+    var thisNode = d3.select(this);
+    if (!d.children) {
+      thisNode.append("svg:a")
+        // .attr("xlink:href", function(d) { return d.url; })
+        .attr("target", "_blank")
+        //.text(function(d) { return d.url; })
+        .append("text")
+          .on("click", function(){
+            renderDescription(d.id);
+            // console.log(d.name);
+          })
+        .attr("dx", 5)
+        .attr("dy", 5)
+        .attr("text-anchor", "start")
+        .text(function(d) { return d.engText; });
+    } else {
+      thisNode.append("text")
+        .attr("dx", -8)
+        .attr("dy", 3)
+        .attr("text-anchor", "end")
+        .text(function(d) { return d.name; });
+    }
+  });
+} else {
+  node.each(function(d){
+    var thisNode = d3.select(this);
+    if (!d.children) {
+      thisNode.append("svg:a")
+        // .attr("xlink:href", function(d) { return d.url; })
+        .attr("target", "_blank")
+        //.text(function(d) { return d.url; })
+        .append("text")
+          .on("click", function(){
+            renderDescription(d.id);
+            // console.log(d.name);
+          })
+        .attr("dx", 5)
+        .attr("dy", 5)
+        .attr("text-anchor", "start")
+        .text(function(d) { return d.text; });
+    } else {
+      thisNode.append("text")
+        .attr("dx", -8)
+        .attr("dy", 3)
+        .attr("text-anchor", "end")
+        .text(function(d) { return d.name; });
+    }
+  });
+}
 
 // force be with you
 force.on("tick", function () {
