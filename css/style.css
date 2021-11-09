@@ -102,6 +102,10 @@ html, body{
   background-color: black;
 }
 
+#about p{
+  font-size: 16px;
+}
+
 hr{
   color: white;
 }
@@ -150,6 +154,10 @@ button{
 
 .abonarItem span{
   color: #337ab7;
+}
+
+.abonarItem p{
+  font-size: 16px;
 }
 
 #qr{

@@ -44,7 +44,7 @@ function renderDescription(d){
     document.getElementById('description').appendChild(buttons);
 
     let ver = document.createElement('span');
-    if (EN) { ver.innerText = "View episode" } else { ver.innerText = "Ver episodio" }
+    if (EN) { ver.innerText = "Watch episode" } else { ver.innerText = "Ver episodio" }
     // ver.classList.add('icofont-play-alt-2');
     ver.id = 'ver';
     ver.addEventListener('click', function(){
