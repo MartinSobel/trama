@@ -117,15 +117,15 @@ let descriptionsEN = [
         'Con: Dama David, Polilovee, Rebecca Seary, Beth Dempster, Aram Larsen, Randy, Karen Pitkethly \n Guión: Dama David, Polilovee, Rebecca Seary, Jada Sirkin \n Dirección, producción y montaje: Jada Sirkin, Dama David \n Cámara y color: Jada Sirkin \n Sonido directo: Dama David, Jada Sirkin \n Drone: Cristóbal David Dibujos: Rebecca Seary, Aram Larsen \n Post producción de sonido: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Desgrabación y traducción: Clemente Felmer \n Música original: Julián Romero'
     ],
     [
-        'Sonidos que no existen',
+        'Unexisting sound',
         '21 min',
         "Caro makes love with the lights off, says she doesn&#39;t like her body. She sees her patients, swipes through Tinder, looks out the window and pictures infinity.",
         "https://images2.minutemediacdn.com/image/upload/c_crop,h_674,w_1200,x_0,y_113/f_auto,q_auto,w_1100/v1554999553/shape/mentalfloss/504605-publicdomain.gif",
         '<iframe src="https://player.vimeo.com/video/639727849?h=c881c12cb4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        'With: Sharon Cohen Goldfrid, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martín Sobel, Gustavo Arcuri, Valentín Piñeyro. \n Idea and production: Sharon Cohen Goldfrid, Dama David, Jada Sirkin \n Direction, editing: Jada Sirkin, Dama David \n Camera and color: Jada Sirkin \n Direct sound: José Ratti, Martín Sobel, Maga Taiani, Dama David \n Script: Sharon Cohen Goldfrid, Dama David, Jada Sirkin, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martin Sobel, Gustavo Arcuri \n POpening and ending drawings: Álvaro Villagra Morales \n Transcription: Clemente Felmer \n Music: Ultrazoppi, Sharon Cohen Golfrid, Mumi Rujana'
+        'With: Sharon Cohen Goldfrid, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martín Sobel, Gustavo Arcuri, Valentín Piñeyro. \n Idea and production: Sharon Cohen Goldfrid, Dama David, Jada Sirkin \n Direction, editing: Jada Sirkin, Dama David \n Camera and color: Jada Sirkin \n Direct sound: José Ratti, Martín Sobel, Maga Taiani, Dama David \n Script: Sharon Cohen Goldfrid, Dama David, Jada Sirkin, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martin Sobel, Gustavo Arcuri \n Opening and ending drawings: Álvaro Villagra Morales \n Transcription: Clemente Felmer \n Music: Ultrazoppi, Sharon Cohen Golfrid, Mumi Rujana'
     ],
     [
-        'Fin',
+        'The end',
         '60min min',
         "In the first months of quarantine, Camila and Lucas watch a movie. She gets emotional and he gets cold. Days go by and the wheels of living together reveal habits and novelties. What is going to happen to us?",
         "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif",
