@@ -133,6 +133,8 @@ button{
 
 .abonarItem{
   margin-top: 13% !important;
+  padding-bottom: 40px;
+  border-bottom: 1px solid white;
 }
 
 .abonarItem img{
