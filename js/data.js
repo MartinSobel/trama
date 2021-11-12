@@ -117,7 +117,7 @@ let descriptionsEN = [
         'Con: Dama David, Polilovee, Rebecca Seary, Beth Dempster, Aram Larsen, Randy, Karen Pitkethly \n Guión: Dama David, Polilovee, Rebecca Seary, Jada Sirkin \n Dirección, producción y montaje: Jada Sirkin, Dama David \n Cámara y color: Jada Sirkin \n Sonido directo: Dama David, Jada Sirkin \n Drone: Cristóbal David Dibujos: Rebecca Seary, Aram Larsen \n Post producción de sonido: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Desgrabación y traducción: Clemente Felmer \n Música original: Julián Romero'
     ],
     [
-        'Unexisting sound',
+        'Unexisting sounds',
         '21 min',
         "Caro makes love with the lights off, says she doesn&#39;t like her body. She sees her patients, swipes through Tinder, looks out the window and pictures infinity.",
         "https://images2.minutemediacdn.com/image/upload/c_crop,h_674,w_1200,x_0,y_113/f_auto,q_auto,w_1100/v1554999553/shape/mentalfloss/504605-publicdomain.gif",
