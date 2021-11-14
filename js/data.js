@@ -71,7 +71,7 @@ let descriptionsEN = [
     [
         'The Earth, a great silence',
         '66 min',
-        "They haven't seen each other for more than a year they''ll have to talk and they''ll have to make silence Reunion has an ambiguous face",
+        "They haven't seen each other for more than a year. They''ll have to talk and they''ll have to make silence. Reunion has an ambiguous face.",
         "assets/images/thumbnails/La Tierra, un gran silencio 16-9 Dibujo.jpg",
         '<iframe src="https://player.vimeo.com/video/631429742" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         'With: Josefa Cavada, Tania Jofré, Munay Gelerstein Cavada, Verónica Salas, Marcela Urzay, Ana Iro, Sara Luna Aylwin, Anyela Elliesen, Vicente Jofré, Julieta Bernal, Lautaro Quiroz \n Direction, production and editing: Jada Sirkin, Dama David \n Script: Dama David, Jada Sirkin, Josefa Cavada, Tania Jofré \n Camera and color: Jada Sirkin \n Direct sound: Dama David, Jeremy Hatcher \n Sound post production: Zub sonido - Emiliano Biaiñ, Marcos Zoppi, Facundo de Vedia \n Opening and ending drawings: Tania Jofré \n Music: Julián Romero, Josefa Cavada, Nea Ducci, Ana Iro, Almeyda'

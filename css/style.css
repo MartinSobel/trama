@@ -137,6 +137,10 @@ button{
   border-bottom: 1px solid white;
 }
 
+#noLine{
+  border-bottom: 0px solid white !important;
+}
+
 .abonarItem img{
   width: 100px;
 }
