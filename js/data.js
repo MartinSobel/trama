@@ -119,7 +119,7 @@ let descriptionsEN = [
     [
         'Unexisting sounds',
         '21 min',
-        "Caro makes love with the lights off, says she doesn&#39;t like her body. She sees her patients, swipes through Tinder, looks out the window and pictures infinity.",
+        "Caro makes love with the lights off, says she doesn't like her body. She sees her patients, swipes through Tinder, looks out the window and pictures infinity.",
         "https://images2.minutemediacdn.com/image/upload/c_crop,h_674,w_1200,x_0,y_113/f_auto,q_auto,w_1100/v1554999553/shape/mentalfloss/504605-publicdomain.gif",
         '<iframe src="https://player.vimeo.com/video/639727849?h=c881c12cb4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
         'With: Sharon Cohen Goldfrid, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martín Sobel, Gustavo Arcuri, Valentín Piñeyro. \n Idea and production: Sharon Cohen Goldfrid, Dama David, Jada Sirkin \n Direction, editing: Jada Sirkin, Dama David \n Camera and color: Jada Sirkin \n Direct sound: José Ratti, Martín Sobel, Maga Taiani, Dama David \n Script: Sharon Cohen Goldfrid, Dama David, Jada Sirkin, Gustavo Urroz, Marcos Zoppi, Mumi Rujana, Ludmila Mann, Lula Rovatti, Melina Boyadjian, Martin Sobel, Gustavo Arcuri \n Opening and ending drawings: Álvaro Villagra Morales \n Transcription: Clemente Felmer \n Music: Ultrazoppi, Sharon Cohen Golfrid, Mumi Rujana'
