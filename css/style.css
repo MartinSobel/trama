@@ -16,6 +16,10 @@
   background: #555; 
 }
 
+#phone{
+  display: none;
+}
+
 /* Main */
 html, body{ 
   font-family: 'Catamaran', sans-serif !important;
@@ -361,13 +365,19 @@ iframe{
   }
 
   #phone{
+    display: block !important;
     z-index: 30;
     width: 100%;
     height: 100%;
+    background-color: black;
   }
 
   #phone h1{
-    color: black;
+    color: white;
+  }
+
+  #eng{
+    color: #337ab7 !important;
   }
 
   #phoneText{
@@ -407,5 +417,9 @@ iframe{
     right: 60px;
     width: 300px;
     height: 600px;
+  }
+
+  #logoIzq{
+    width: 40% !important;
   }
 }
