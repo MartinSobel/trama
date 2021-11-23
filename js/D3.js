@@ -36,9 +36,9 @@ var graph = {
         {"id": 1, "name":"Myriel","group":1, url: "http://www.anywhere.com", text: "La Tierra, un gran silencio", engText: "The Earth, a great silence"},
         {"id": 2, "name":"Napoleon","group":1, url: "http://www.anywhere.com", text: "No te tiene que doler", engText: "It shouldn’t hurt you"},
         {"id": 3, "name":"Mlle.Baptistine","group":1, url: "http://www.anywhere.com", text: "Em deja el teatro", engText: "Em leaves the theater"},
-        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "", engText: ""}, // La nave de la distancia
+        {"id": 4, "name":"Mme.Magloire","group":1, url: "http://www.anywhere.com", text: "La nave de la distancia", engText: "Mission Distance"},
         {"id": 5, "name":"CountessdeLo","group":1, url: "http://www.anywhere.com", text: "Una inestabilidad que se propaga", engText: "A spreading turbulence"},
-        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "", engText: ""}, // El callejón
+        {"id": 6, "name":"Geborand","group":1, url: "http://www.anywhere.com", text: "El callejón", engText: "The alley"},
         {"id": 7, "name":"Champtercier","group":1, url: "http://www.anywhere.com", text: "Sonidos que no existen", engText: "Unexisting sounds"}, 
         {"id": 8, "name":"Cravatte","group":1, url: "http://www.anywhere.com", text: "Fin", engText: "The end"},
         {"id": 9, "name":"Count","group":1, url: "http://www.anywhere.com", text: "", engText: ""},
