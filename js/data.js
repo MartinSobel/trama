@@ -26,7 +26,7 @@ let descriptionsES = [
     ],
     [
         'La nave de la distancia',
-        '36min',
+        '75 min',
         "Lucas cancela el rodaje de su película y el sueño vuelve a quedar lejos, inaccesible. Aunque toca los árboles, asegura que no los siente. Por suerte no está solo.",
         "assets/images/thumbnails/LA NAVE... Miniatura.jpg",
         '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -42,7 +42,7 @@ let descriptionsES = [
     ],
     [
         'El callejón',
-        '1h 1m',
+        '60 min',
         "Sara es una joven venezolana que vive en Vancouver y trabaja limpiando casas. Un conocido de Argentina, Max, no tiene dónde vivir y ella lo invita a pasar unos días en su cueva. También lo invita a trabajar con ella y a hacer un ayuno de jugos de una semana. Una dibujante los llama para ordenar su casa y los termina pintando. Max camina.",
         "assets/images/thumbnails/THE ALLEY Miniatura.jpg",
         '<iframe src="https://player.vimeo.com/video/646418347?h=522ec9717b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -95,10 +95,10 @@ let descriptionsEN = [
     [
         'Mission Distance',
         '36min',
-        "Lucas cancela el rodaje de su película y el sueño vuelve a quedar lejos, inaccesible. Aunque toca los árboles, asegura que no los siente. Por suerte no está solo.",
+        "Lucas cancels the shooting of his film and the dream is again far away, inaccessible. Although he touches the trees, he assures he doesn&#39;t feel them. Fortunately he is not alone.",
         "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif",
         '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        'Con: Jada Sirkin, Magalí Aldabe, Manuel Fanego, Joel Roch, Rodrigo Soloeta, Kelly Nesbitt, Joaquín Astelarra Escobar, Mariana Vidal, Manuel Tiziano Kaplan, Wem Wertheimer, Hernán Bustamante, Melisa Piccioli, Franco Antonio de la Puente, Irunah Briozzo, Gael Higa Penna, Facundo Higa, Josefina Penna, Cecilia Jury, Mauro Vignetta, José Ratti, Bayron Mendivelso \n Dirección, producción, y montaje: Jada Sirkin, Dama David \n Guión: Jada Sirkin, Dama David, Manuel Fanego, Joel Roch, Magalí Aldabe, Rodrigo Soloeta, Wem Wertheimer, José Ratti, Kelly Nesbitt, Mariana Vidal, Manuel Tiziano Kaplan, Hernán Bustamante, Melisa Piccioli, Franco Antonio de la Puente, Irunah Briozzo, Gael Higa Penna, Facundo Higa, Josefina Penna, Cecilia Jury, Mauro Vignetta \n Cámara: Dama, Jada, Julián Hercovich, Dama David \n Color: Jada Sirkin \n Foto fija: Leonel Luciani, Toki Pfannkuche, Denisse Bustos Sonido directo: José Ratti, Bayron Mendivelso, Dama David, Denisse Bustos, Sol Bordigoni, Julián Hercovich, Sharon Cohen Goldfrid, Lola Haha \n Post producción de sonido: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Desgrabación: Gualda Ruffo Música: Jada Sirkin, Irunah Briozzo, Rodrigo Soloeta, Cecilia Jury, Mauro Vignetta'
+        'With: Jada Sirkin, Magalí Aldabe, Manuel Fanego, Joel Roch, Rodrigo Soloeta, Kelly Nesbitt, Joaquín Astelarra Escobar, Mariana Vidal, Manuel Tiziano Kaplan, Wem Wertheimer, Hernán Bustamante, Melisa Piccioli, Franco Antonio de la Puente, Irunah Briozzo, Gael Higa Penna, Facundo Higa, Josefina Penna, Cecilia Jury, Mauro Vignetta, José Ratti, Bayron Mendivelso \n Direction, production, editing: Jada Sirkin, Dama David \n Script: Jada Sirkin, Dama David, Manuel Fanego, Joel Roch, Magalí Aldabe, Rodrigo Soloeta, Wem Wertheimer, José Ratti, Kelly Nesbitt, Mariana Vidal, Manuel Tiziano Kaplan, Hernán Bustamante, Melisa Piccioli, Franco Antonio de la Puente, Irunah Briozzo, Gael Higa Penna, Facundo Higa, Josefina Penna, Cecilia Jury, Mauro Vignetta \n Camera: Dama, Jada, Julián Hercovich, Dama David \n Color: Jada Sirkin \n Still photo: Leonel Luciani, Toki Pfannkuche, Denisse Bustos \n Direct sound: José Ratti, Bayron Mendivelso, Dama David, Denisse Bustos, Sol Bordigoni, Julián Hercovich, Sharon Cohen Goldfrid, Lola Haha \n Sound post production: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Transcription: Gualda Ruffo \n Music: Jada Sirkin, Irunah Briozzo, Rodrigo Soloeta, Cecilia Jury, Mauro Vignetta'
     ],
     [
         'A spreading turbulence',
@@ -114,7 +114,7 @@ let descriptionsEN = [
         "Sara is a young Venezuelan woman living in Vancouver and working as a house cleaner. An acquaintance from Argentina, Max, has nowhere to live so she invites him to spend a few days in her cave. She also invites him to work with her and to go on a week-long juice fast. A sketch artist calls them to tidy up her house and ends up painting them. Max walks.",
         "https://i.pinimg.com/originals/47/7b/7c/477b7c1c999a42694b936fd191279b84.gif",
         '<iframe src="https://player.vimeo.com/video/629299340?h=16d2f4cec7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TRAMA No te tiene que doler (bajada final, 10,11,21, VBR 16-40).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-        'Con: Dama David, Polilovee, Rebecca Seary, Beth Dempster, Aram Larsen, Randy, Karen Pitkethly \n Guión: Dama David, Polilovee, Rebecca Seary, Jada Sirkin \n Dirección, producción y montaje: Jada Sirkin, Dama David \n Cámara y color: Jada Sirkin \n Sonido directo: Dama David, Jada Sirkin \n Drone: Cristóbal David Dibujos: Rebecca Seary, Aram Larsen \n Post producción de sonido: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Desgrabación y traducción: Clemente Felmer \n Música original: Julián Romero'
+        'With: Dama David, Polilovee, Rebecca Seary, Beth Dempster, Aram Larsen, Randy, Karen Pitkethly \n Script: Dama David, Polilovee, Rebecca Seary, Jada Sirkin \n Direction, production, editing: Jada Sirkin, Dama David \n Camera and color: Jada Sirkin \n Direct sound: Dama David, Jada Sirkin \n Drone camera: Cristóbal David \n Drawings: Rebecca Seary, Aram Larsen \n Sound post production: Zub sonido - Emiliano Biaiñ, Marcos Zoopi, Facundo de Vedia \n Transcription and translation: Clemente Felmer \n Original music: Julián Romero'
     ],
     [
         'Unexisting sounds',
